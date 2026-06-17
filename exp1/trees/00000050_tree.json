@@ -1,0 +1,1174 @@
+{
+  "model_id": "00000050",
+  "n_nodes": 6,
+  "sequence_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "nodes": {
+    "0": {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0015875,
+        "depthTwo": 0.0015875
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.00966047,
+                      0.0762
+                    ],
+                    "end_point": [
+                      -0.00966047,
+                      0.03024463
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.00966047,
+                      0.03024463
+                    ],
+                    "end_point": [
+                      0.00966047,
+                      0.03024463
+                    ],
+                    "midpoint": [
+                      0.0,
+                      -0.03175
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.00966047,
+                      0.03024463
+                    ],
+                    "end_point": [
+                      0.00966047,
+                      0.0762
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.00966047,
+                      0.0762
+                    ],
+                    "end_point": [
+                      -0.00966047,
+                      0.0762
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.08586047
+                    ]
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0762
+                    ],
+                    "radius": 0.003175
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.01751459
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "Extrude 2",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "REMOVE",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.003175
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            -0.0015875,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0015875,
+                      0.02667
+                    ],
+                    "end_point": [
+                      -0.0015875,
+                      0.02159
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.0015875,
+                      0.02159
+                    ],
+                    "end_point": [
+                      0.0015875,
+                      0.02159
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0200025
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0015875,
+                      0.02159
+                    ],
+                    "end_point": [
+                      0.0015875,
+                      0.02667
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0015875,
+                      0.02667
+                    ],
+                    "end_point": [
+                      -0.0015875,
+                      0.02667
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0282575
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0015875,
+        "depthTwo": 0.0015875
+      }
+    },
+    "2": {
+      "name": "Extrude 3",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0001778,
+        "depthTwo": 0.0
+      },
+      "parent_idx": 0,
+      "inputs": [
+        0
+      ],
+      "input_labels": {
+        "0": "geo"
+      },
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            -0.0015875,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.01997204,
+                      -0.00119672
+                    ],
+                    "end_point": [
+                      0.00727204,
+                      0.02080032
+                    ],
+                    "midpoint": [
+                      0.01656909,
+                      0.01150328
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.00727204,
+                      0.02080032
+                    ],
+                    "end_point": [
+                      0.00996503,
+                      0.025104
+                    ],
+                    "midpoint": [
+                      0.00638884,
+                      0.02434737
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.00996503,
+                      0.025104
+                    ],
+                    "end_point": [
+                      0.02628584,
+                      -0.00071864
+                    ],
+                    "midpoint": [
+                      0.02082674,
+                      0.0139
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.02628584,
+                      -0.00071864
+                    ],
+                    "end_point": [
+                      0.01997204,
+                      -0.00119672
+                    ],
+                    "midpoint": [
+                      0.02338677,
+                      -0.00436266
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "3": {
+      "name": "Extrude 4",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "ADD",
+        "endBound": "BLIND",
+        "depthOne": 0.003175,
+        "depthTwo": 0.0
+      },
+      "parent_idx": 2,
+      "inputs": [
+        2
+      ],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            -0.0017653,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.02314704,
+                      -0.00119672
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          -0.0015875,
+          0.0
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0001778,
+        "depthTwo": 0.0
+      }
+    },
+    "4": {
+      "name": "Extrude 5",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "ADD",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.003175
+      },
+      "parent_idx": 2,
+      "inputs": [
+        2
+      ],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            -0.0017653,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00854204,
+                      0.02300003
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          -0.0015875,
+          0.0
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0001778,
+        "depthTwo": 0.0
+      }
+    },
+    "5": {
+      "name": "Extrude 6",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.003175,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.0323595
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.02314704,
+                      -0.00119672
+                    ],
+                    "radius": 0.00088197
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.01751459
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tree": [
+    {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0015875,
+        "depthTwo": 0.0015875
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.00966047,
+                      0.0762
+                    ],
+                    "end_point": [
+                      -0.00966047,
+                      0.03024463
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.00966047,
+                      0.03024463
+                    ],
+                    "end_point": [
+                      0.00966047,
+                      0.03024463
+                    ],
+                    "midpoint": [
+                      0.0,
+                      -0.03175
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.00966047,
+                      0.03024463
+                    ],
+                    "end_point": [
+                      0.00966047,
+                      0.0762
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.00966047,
+                      0.0762
+                    ],
+                    "end_point": [
+                      -0.00966047,
+                      0.0762
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.08586047
+                    ]
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0762
+                    ],
+                    "radius": 0.003175
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.01751459
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "children": [
+        {
+          "name": "Extrude 3",
+          "feature_type": "extrude",
+          "params": {
+            "bodyType": "SOLID",
+            "operationType": "NEW",
+            "endBound": "BLIND",
+            "depthOne": 0.0001778,
+            "depthTwo": 0.0
+          },
+          "parent_idx": 0,
+          "inputs": [
+            0
+          ],
+          "input_labels": {
+            "0": "geo"
+          },
+          "sketch_data": {
+            "plane": {
+              "normal": [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              "origin": [
+                0.0,
+                -0.0015875,
+                0.0
+              ],
+              "x": [
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            "profiles": {
+              "0": {
+                "loops": [
+                  {
+                    "loop_curves": [
+                      {
+                        "type": "Arc2D",
+                        "start_point": [
+                          0.01997204,
+                          -0.00119672
+                        ],
+                        "end_point": [
+                          0.00727204,
+                          0.02080032
+                        ],
+                        "midpoint": [
+                          0.01656909,
+                          0.01150328
+                        ]
+                      },
+                      {
+                        "type": "Arc2D",
+                        "start_point": [
+                          0.00727204,
+                          0.02080032
+                        ],
+                        "end_point": [
+                          0.00996503,
+                          0.025104
+                        ],
+                        "midpoint": [
+                          0.00638884,
+                          0.02434737
+                        ]
+                      },
+                      {
+                        "type": "Arc2D",
+                        "start_point": [
+                          0.00996503,
+                          0.025104
+                        ],
+                        "end_point": [
+                          0.02628584,
+                          -0.00071864
+                        ],
+                        "midpoint": [
+                          0.02082674,
+                          0.0139
+                        ]
+                      },
+                      {
+                        "type": "Arc2D",
+                        "start_point": [
+                          0.02628584,
+                          -0.00071864
+                        ],
+                        "end_point": [
+                          0.01997204,
+                          -0.00119672
+                        ],
+                        "midpoint": [
+                          0.02338677,
+                          -0.00436266
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "children": [
+            {
+              "name": "Extrude 4",
+              "feature_type": "extrude",
+              "params": {
+                "bodyType": "SOLID",
+                "operationType": "ADD",
+                "endBound": "BLIND",
+                "depthOne": 0.003175,
+                "depthTwo": 0.0
+              },
+              "parent_idx": 2,
+              "inputs": [
+                2
+              ],
+              "input_labels": {},
+              "sketch_data": {
+                "plane": {
+                  "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                  ],
+                  "origin": [
+                    0.0,
+                    -0.0017653,
+                    0.0
+                  ],
+                  "x": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                "profiles": {
+                  "0": {
+                    "loops": [
+                      {
+                        "loop_curves": [
+                          {
+                            "type": "Circle2D",
+                            "center_point": [
+                              0.02314704,
+                              -0.00119672
+                            ],
+                            "radius": 0.000635
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "parent_sketch_plane": {
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "origin": [
+                  0.0,
+                  -0.0015875,
+                  0.0
+                ],
+                "x": [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "parent_op_type": "extrude",
+              "parent_op_params": {
+                "bodyType": "SOLID",
+                "operationType": "NEW",
+                "endBound": "BLIND",
+                "depthOne": 0.0001778,
+                "depthTwo": 0.0
+              }
+            },
+            {
+              "name": "Extrude 5",
+              "feature_type": "extrude",
+              "params": {
+                "bodyType": "SOLID",
+                "operationType": "ADD",
+                "endBound": "BLIND",
+                "depthOne": 0.0,
+                "depthTwo": 0.003175
+              },
+              "parent_idx": 2,
+              "inputs": [
+                2
+              ],
+              "input_labels": {},
+              "sketch_data": {
+                "plane": {
+                  "normal": [
+                    0.0,
+                    -1.0,
+                    0.0
+                  ],
+                  "origin": [
+                    0.0,
+                    -0.0017653,
+                    0.0
+                  ],
+                  "x": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                },
+                "profiles": {
+                  "0": {
+                    "loops": [
+                      {
+                        "loop_curves": [
+                          {
+                            "type": "Circle2D",
+                            "center_point": [
+                              0.00854204,
+                              0.02300003
+                            ],
+                            "radius": 0.000635
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "parent_sketch_plane": {
+                "normal": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "origin": [
+                  0.0,
+                  -0.0015875,
+                  0.0
+                ],
+                "x": [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "parent_op_type": "extrude",
+              "parent_op_params": {
+                "bodyType": "SOLID",
+                "operationType": "NEW",
+                "endBound": "BLIND",
+                "depthOne": 0.0001778,
+                "depthTwo": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extrude 2",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "REMOVE",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.003175
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            -0.0015875,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0015875,
+                      0.02667
+                    ],
+                    "end_point": [
+                      -0.0015875,
+                      0.02159
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.0015875,
+                      0.02159
+                    ],
+                    "end_point": [
+                      0.0015875,
+                      0.02159
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0200025
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0015875,
+                      0.02159
+                    ],
+                    "end_point": [
+                      0.0015875,
+                      0.02667
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0015875,
+                      0.02667
+                    ],
+                    "end_point": [
+                      -0.0015875,
+                      0.02667
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0282575
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0015875,
+        "depthTwo": 0.0015875
+      }
+    },
+    {
+      "name": "Extrude 6",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.003175,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.0323595
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.02314704,
+                      -0.00119672
+                    ],
+                    "radius": 0.00088197
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      0.0
+                    ],
+                    "radius": 0.01751459
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

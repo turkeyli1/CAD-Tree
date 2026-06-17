@@ -1,0 +1,717 @@
+{
+  "model_id": "00000095",
+  "n_nodes": 5,
+  "sequence_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "nodes": {
+    "0": {
+      "name": "Sphere",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            -0.0635,
+            0.0,
+            0.00635
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.0635,
+                      -0.00635
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.00635
+                    ],
+                    "midpoint": [
+                      -0.06985,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.00635
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      -0.00635
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "Revolve 1",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.01905
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0,
+                      -0.01905
+                    ],
+                    "end_point": [
+                      0.0,
+                      0.01905
+                    ],
+                    "midpoint": [
+                      -0.01905,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0,
+                      -0.01905
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "Revolve 2",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.0635,
+                      0.0
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "3": {
+      "name": "Revolve 3",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.0635,
+                      0.0
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "4": {
+      "name": "Revolve 5",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      -0.0635
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tree": [
+    {
+      "name": "Sphere",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            -0.0635,
+            0.0,
+            0.00635
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.0635,
+                      -0.00635
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.00635
+                    ],
+                    "midpoint": [
+                      -0.06985,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.00635
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      -0.00635
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Revolve 1",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.01905
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0,
+                      -0.01905
+                    ],
+                    "end_point": [
+                      0.0,
+                      0.01905
+                    ],
+                    "midpoint": [
+                      -0.01905,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0,
+                      -0.01905
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Revolve 2",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.0635,
+                      0.0
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Revolve 3",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.0635,
+                      0.0
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Revolve 5",
+      "feature_type": "revolve",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "revolveType": "FULL",
+        "axis": {
+          "point": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "angleOne": 360.0,
+        "angleTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.0,
+                      -0.0635
+                    ],
+                    "radius": 0.000635
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

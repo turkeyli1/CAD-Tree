@@ -1,0 +1,1010 @@
+{
+  "model_id": "00000137",
+  "n_nodes": 2,
+  "sequence_order": [
+    0,
+    1
+  ],
+  "nodes": {
+    "0": {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.01905,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.16779088,
+                      0.0635
+                    ],
+                    "end_point": [
+                      0.16779088,
+                      0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.16779088,
+                      0.0635
+                    ],
+                    "end_point": [
+                      0.16779088,
+                      -0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.16779088,
+                      -0.0635
+                    ],
+                    "end_point": [
+                      -0.16779088,
+                      -0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.16779088,
+                      -0.0635
+                    ],
+                    "end_point": [
+                      -0.16779088,
+                      0.0635
+                    ]
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.13604088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.09794088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.07254088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.12969088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.06204564,
+                      -0.00684246
+                    ],
+                    "end_point": [
+                      -0.13604916,
+                      -0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.13604916,
+                      -0.00684246
+                    ],
+                    "end_point": [
+                      -0.13604916,
+                      0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.13604916,
+                      0.00684246
+                    ],
+                    "end_point": [
+                      -0.06204564,
+                      0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.06204564,
+                      0.00684246
+                    ],
+                    "end_point": [
+                      -0.06204564,
+                      -0.00684246
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "Extrude 2",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.01905,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.05856086,
+                      0.0
+                    ],
+                    "end_point": [
+                      -0.05856086,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.05856086,
+                      0.0
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.00493914
+                    ],
+                    "midpoint": [
+                      -0.0635,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.00493914
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.01905
+                    ],
+                    "end_point": [
+                      -0.08818578,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.08818578,
+                      0.01905
+                    ],
+                    "end_point": [
+                      -0.08818578,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.08818578,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.00994549,
+                      -0.11907131
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.00994549,
+                      -0.11907131
+                    ],
+                    "end_point": [
+                      0.02899549,
+                      -0.11907131
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.02899549,
+                      -0.11907131
+                    ],
+                    "end_point": [
+                      0.09340251,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.09340251,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0635,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0635,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0635,
+                      0.00493914
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0635,
+                      0.00493914
+                    ],
+                    "end_point": [
+                      0.05856086,
+                      0.0
+                    ],
+                    "midpoint": [
+                      0.0635,
+                      0.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tree": [
+    {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.01905,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.16779088,
+                      0.0635
+                    ],
+                    "end_point": [
+                      0.16779088,
+                      0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.16779088,
+                      0.0635
+                    ],
+                    "end_point": [
+                      0.16779088,
+                      -0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.16779088,
+                      -0.0635
+                    ],
+                    "end_point": [
+                      -0.16779088,
+                      -0.0635
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.16779088,
+                      -0.0635
+                    ],
+                    "end_point": [
+                      -0.16779088,
+                      0.0635
+                    ]
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.03540912,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.00269088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.04079088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.07889088,
+                      -0.0381
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.13604088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.09794088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      -0.07254088,
+                      0.0381
+                    ],
+                    "radius": 0.004826
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Circle2D",
+                    "center_point": [
+                      0.12969088,
+                      0.0
+                    ],
+                    "radius": 0.0127
+                  }
+                ]
+              },
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.06204564,
+                      -0.00684246
+                    ],
+                    "end_point": [
+                      -0.13604916,
+                      -0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.13604916,
+                      -0.00684246
+                    ],
+                    "end_point": [
+                      -0.13604916,
+                      0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.13604916,
+                      0.00684246
+                    ],
+                    "end_point": [
+                      -0.06204564,
+                      0.00684246
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.06204564,
+                      0.00684246
+                    ],
+                    "end_point": [
+                      -0.06204564,
+                      -0.00684246
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Extrude 2",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.01905,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.05856086,
+                      0.0
+                    ],
+                    "end_point": [
+                      -0.05856086,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.05856086,
+                      0.0
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.00493914
+                    ],
+                    "midpoint": [
+                      -0.0635,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.00493914
+                    ],
+                    "end_point": [
+                      -0.0635,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0635,
+                      0.01905
+                    ],
+                    "end_point": [
+                      -0.08818578,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.08818578,
+                      0.01905
+                    ],
+                    "end_point": [
+                      -0.08818578,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.08818578,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.00994549,
+                      -0.11907131
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.00994549,
+                      -0.11907131
+                    ],
+                    "end_point": [
+                      0.02899549,
+                      -0.11907131
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.02899549,
+                      -0.11907131
+                    ],
+                    "end_point": [
+                      0.09340251,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.09340251,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0635,
+                      0.01905
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.0635,
+                      0.01905
+                    ],
+                    "end_point": [
+                      0.0635,
+                      0.00493914
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0635,
+                      0.00493914
+                    ],
+                    "end_point": [
+                      0.05856086,
+                      0.0
+                    ],
+                    "midpoint": [
+                      0.0635,
+                      0.0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

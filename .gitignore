@@ -1,0 +1,43 @@
+# Raw data — not tracked
+SeekCADjsons/
+json_files/
+data/
+exp1/jsons/
+
+# Archives
+*.tar.gz
+*.tar.xz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pickle caches
+*.pkl
+*.pkl.bad
+
+# Experiment outputs outside exp1
+deepcad_vec/
+lca_tree_repr/
+/trees/
+v2_verify_trees/
+tree_steps/
+recon_test/
+tree_rule_outputs/
+tree_export/
+ckpt_local/
+ckpt_overfit/
+ckpt/
+
+# SLURM / scratch
+*.out
+*.err
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code session data
+.claude/

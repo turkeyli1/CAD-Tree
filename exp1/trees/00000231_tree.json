@@ -1,0 +1,1730 @@
+{
+  "model_id": "00000231",
+  "n_nodes": 10,
+  "sequence_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "nodes": {
+    "0": {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0508,
+        "depthTwo": 0.0508
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0508,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.0508,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0508,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.06253176,
+                      0.02032
+                    ],
+                    "midpoint": [
+                      0.06253176,
+                      0.00677333
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.06253176,
+                      0.02032
+                    ],
+                    "end_point": [
+                      -0.06253176,
+                      0.02032
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0254
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.06253176,
+                      0.02032
+                    ],
+                    "end_point": [
+                      -0.0508,
+                      0.0
+                    ],
+                    "midpoint": [
+                      -0.06253176,
+                      0.00677333
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "fillet_1_of_F7HAj1Voy51EQO4_0_0",
+      "feature_type": "fillet",
+      "params": {
+        "radius": 0.00127
+      },
+      "parent_idx": 0,
+      "inputs": [
+        0
+      ],
+      "input_labels": {},
+      "entities": [
+        {
+          "referenceType": "FACE",
+          "source_node_idx": 0,
+          "profile_idx": 0,
+          "capType": "END",
+          "brep_face_idx": 0
+        }
+      ],
+      "parent_sketch_plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0508,
+        "depthTwo": 0.0508
+      }
+    },
+    "2": {
+      "name": "Extrude 2",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "ADD",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.0635
+      },
+      "parent_idx": 0,
+      "inputs": [
+        0
+      ],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            -0.0508,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.01905,
+                      0.02493134
+                    ],
+                    "end_point": [
+                      0.01905,
+                      0.02493134
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.01905,
+                      0.02493134
+                    ],
+                    "end_point": [
+                      0.00635,
+                      0.10113134
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.00635,
+                      0.10113134
+                    ],
+                    "end_point": [
+                      -0.00635,
+                      0.10113134
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.00635,
+                      0.10113134
+                    ],
+                    "end_point": [
+                      -0.01905,
+                      0.02493134
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0508,
+        "depthTwo": 0.0508
+      }
+    },
+    "3": {
+      "name": "fillet_0_of_FaqEOQURdrrk1yV_1_0",
+      "feature_type": "fillet",
+      "params": {
+        "radius": 0.003175
+      },
+      "parent_idx": 2,
+      "inputs": [
+        2
+      ],
+      "input_labels": {},
+      "entities": [
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 2,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 2,
+          "end": "START",
+          "capType": "SWEPT",
+          "brep_edge_idx": 27,
+          "brep_edge_centroid": [
+            -0.01905,
+            -0.00635,
+            0.101131
+          ]
+        },
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 2,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 3,
+          "end": "START",
+          "capType": "SWEPT",
+          "brep_edge_idx": 27,
+          "brep_edge_centroid": [
+            -0.01905,
+            -0.00635,
+            0.101131
+          ]
+        }
+      ],
+      "parent_sketch_plane": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          -0.0508,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "ADD",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.0635
+      }
+    },
+    "4": {
+      "name": "fillet_1_of_FaqEOQURdrrk1yV_1_0",
+      "feature_type": "fillet",
+      "params": {
+        "radius": 0.00127
+      },
+      "parent_idx": 2,
+      "inputs": [
+        2
+      ],
+      "input_labels": {},
+      "entities": [
+        {
+          "referenceType": "EDGE",
+          "source_node_idx": 2,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 1,
+          "end": "EDGE",
+          "capType": "END",
+          "brep_edge_idx": 1,
+          "brep_edge_centroid": [
+            -0.0508,
+            -0.0127,
+            0.063031
+          ]
+        },
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 2,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 1,
+          "end": "START",
+          "capType": "SWEPT",
+          "brep_edge_idx": 23,
+          "brep_edge_centroid": [
+            -0.024765,
+            -0.01905,
+            0.024931
+          ]
+        },
+        {
+          "referenceType": "EDGE",
+          "source_node_idx": 2,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 1,
+          "end": "EDGE",
+          "capType": "START",
+          "brep_edge_idx": 1,
+          "brep_edge_centroid": [
+            -0.0508,
+            -0.0127,
+            0.063031
+          ]
+        }
+      ],
+      "parent_sketch_plane": {
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          -0.0508,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "ADD",
+        "endBound": "BLIND",
+        "depthOne": 0.0,
+        "depthTwo": 0.0635
+      }
+    },
+    "5": {
+      "name": "Extrude 3",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.04445,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.02286
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.04441397,
+                      -0.03242553
+                    ],
+                    "end_point": [
+                      0.04441397,
+                      0.03242553
+                    ],
+                    "midpoint": [
+                      0.04614364,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.04441397,
+                      0.03242553
+                    ],
+                    "end_point": [
+                      0.03178603,
+                      0.03242553
+                    ],
+                    "midpoint": [
+                      0.0381,
+                      0.0381
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03178603,
+                      0.03242553
+                    ],
+                    "end_point": [
+                      0.03178603,
+                      -0.03242553
+                    ],
+                    "midpoint": [
+                      0.03005636,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03178603,
+                      -0.03242553
+                    ],
+                    "end_point": [
+                      0.04441397,
+                      -0.03242553
+                    ],
+                    "midpoint": [
+                      0.0381,
+                      -0.0381
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "6": {
+      "name": "Extrude 4",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "REMOVE",
+        "endBound": "BLIND",
+        "depthOne": 0.0127,
+        "depthTwo": 0.0127
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0381,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.03059677,
+                      0.06784193
+                    ],
+                    "end_point": [
+                      -0.03526524,
+                      0.07796329
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.03526524,
+                      0.07796329
+                    ],
+                    "end_point": [
+                      0.03526524,
+                      0.07796329
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.03526524,
+                      0.07796329
+                    ],
+                    "end_point": [
+                      0.03059677,
+                      0.06784193
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03059677,
+                      0.06784193
+                    ],
+                    "end_point": [
+                      -0.03059677,
+                      0.06784193
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.04826
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.02286
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.04445,
+        "depthTwo": 0.0
+      }
+    },
+    "7": {
+      "name": "Extrude 5",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0381,
+        "depthTwo": 0.27135636
+      },
+      "parent_idx": 2,
+      "inputs": [
+        2
+      ],
+      "input_labels": {
+        "2": "geo"
+      },
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0127,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.01632606,
+                      0.041275
+                    ],
+                    "end_point": [
+                      0.01632606,
+                      0.041275
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.01632606,
+                      0.041275
+                    ],
+                    "end_point": [
+                      0.01905,
+                      0.02493134
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.01905,
+                      0.02493134
+                    ],
+                    "end_point": [
+                      -0.01905,
+                      0.02493134
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.01905,
+                      0.02493134
+                    ],
+                    "end_point": [
+                      -0.01632606,
+                      0.041275
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "8": {
+      "name": "fillet_0_of_F8wIbictdPXpkfW_1_0",
+      "feature_type": "fillet",
+      "params": {
+        "radius": 0.00508
+      },
+      "parent_idx": 7,
+      "inputs": [
+        7
+      ],
+      "input_labels": {},
+      "entities": [
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 7,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 3,
+          "end": "END",
+          "capType": "SWEPT",
+          "brep_edge_idx": 4,
+          "brep_edge_centroid": [
+            -0.122978,
+            -0.01905,
+            0.024931
+          ]
+        },
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 7,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 1,
+          "end": "START",
+          "capType": "SWEPT",
+          "brep_edge_idx": 6,
+          "brep_edge_centroid": [
+            -0.122978,
+            0.016326,
+            0.041275
+          ]
+        }
+      ],
+      "parent_sketch_plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0127,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0381,
+        "depthTwo": 0.27135636
+      }
+    },
+    "9": {
+      "name": "fillet_1_of_F8wIbictdPXpkfW_1_0",
+      "feature_type": "fillet",
+      "params": {
+        "radius": 0.00127
+      },
+      "parent_idx": 7,
+      "inputs": [
+        7
+      ],
+      "input_labels": {},
+      "entities": [
+        {
+          "referenceType": "VERTEX",
+          "source_node_idx": 7,
+          "profile_idx": 0,
+          "loop_idx": 0,
+          "curve_idx": 3,
+          "end": "START",
+          "capType": "SWEPT",
+          "brep_edge_idx": 4,
+          "brep_edge_centroid": [
+            -0.122978,
+            -0.01905,
+            0.024931
+          ]
+        },
+        {
+          "referenceType": "FACE",
+          "source_node_idx": 7,
+          "profile_idx": 0,
+          "capType": "END",
+          "brep_face_idx": 0
+        }
+      ],
+      "parent_sketch_plane": {
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "origin": [
+          0.0127,
+          0.0,
+          0.0
+        ],
+        "x": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0381,
+        "depthTwo": 0.27135636
+      }
+    }
+  },
+  "tree": [
+    {
+      "name": "Extrude 1",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.0508,
+        "depthTwo": 0.0508
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.0508,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.0508,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.0508,
+                      0.0
+                    ],
+                    "end_point": [
+                      0.06253176,
+                      0.02032
+                    ],
+                    "midpoint": [
+                      0.06253176,
+                      0.00677333
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.06253176,
+                      0.02032
+                    ],
+                    "end_point": [
+                      -0.06253176,
+                      0.02032
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.0254
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      -0.06253176,
+                      0.02032
+                    ],
+                    "end_point": [
+                      -0.0508,
+                      0.0
+                    ],
+                    "midpoint": [
+                      -0.06253176,
+                      0.00677333
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "children": [
+        {
+          "name": "fillet_1_of_F7HAj1Voy51EQO4_0_0",
+          "feature_type": "fillet",
+          "params": {
+            "radius": 0.00127
+          },
+          "parent_idx": 0,
+          "inputs": [
+            0
+          ],
+          "input_labels": {},
+          "entities": [
+            {
+              "referenceType": "FACE",
+              "source_node_idx": 0,
+              "profile_idx": 0,
+              "capType": "END",
+              "brep_face_idx": 0
+            }
+          ],
+          "parent_sketch_plane": {
+            "normal": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "x": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "parent_op_type": "extrude",
+          "parent_op_params": {
+            "bodyType": "SOLID",
+            "operationType": "NEW",
+            "endBound": "BLIND",
+            "depthOne": 0.0508,
+            "depthTwo": 0.0508
+          }
+        },
+        {
+          "name": "Extrude 2",
+          "feature_type": "extrude",
+          "params": {
+            "bodyType": "SOLID",
+            "operationType": "ADD",
+            "endBound": "BLIND",
+            "depthOne": 0.0,
+            "depthTwo": 0.0635
+          },
+          "parent_idx": 0,
+          "inputs": [
+            0
+          ],
+          "input_labels": {},
+          "sketch_data": {
+            "plane": {
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "origin": [
+                -0.0508,
+                0.0,
+                0.0
+              ],
+              "x": [
+                0.0,
+                -1.0,
+                0.0
+              ]
+            },
+            "profiles": {
+              "0": {
+                "loops": [
+                  {
+                    "loop_curves": [
+                      {
+                        "type": "Line2D",
+                        "start_point": [
+                          -0.01905,
+                          0.02493134
+                        ],
+                        "end_point": [
+                          0.01905,
+                          0.02493134
+                        ]
+                      },
+                      {
+                        "type": "Line2D",
+                        "start_point": [
+                          0.01905,
+                          0.02493134
+                        ],
+                        "end_point": [
+                          0.00635,
+                          0.10113134
+                        ]
+                      },
+                      {
+                        "type": "Line2D",
+                        "start_point": [
+                          0.00635,
+                          0.10113134
+                        ],
+                        "end_point": [
+                          -0.00635,
+                          0.10113134
+                        ]
+                      },
+                      {
+                        "type": "Line2D",
+                        "start_point": [
+                          -0.00635,
+                          0.10113134
+                        ],
+                        "end_point": [
+                          -0.01905,
+                          0.02493134
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "parent_sketch_plane": {
+            "normal": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "x": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "parent_op_type": "extrude",
+          "parent_op_params": {
+            "bodyType": "SOLID",
+            "operationType": "NEW",
+            "endBound": "BLIND",
+            "depthOne": 0.0508,
+            "depthTwo": 0.0508
+          },
+          "children": [
+            {
+              "name": "fillet_0_of_FaqEOQURdrrk1yV_1_0",
+              "feature_type": "fillet",
+              "params": {
+                "radius": 0.003175
+              },
+              "parent_idx": 2,
+              "inputs": [
+                2
+              ],
+              "input_labels": {},
+              "entities": [
+                {
+                  "referenceType": "VERTEX",
+                  "source_node_idx": 2,
+                  "profile_idx": 0,
+                  "loop_idx": 0,
+                  "curve_idx": 2,
+                  "end": "START",
+                  "capType": "SWEPT",
+                  "brep_edge_idx": 27,
+                  "brep_edge_centroid": [
+                    -0.01905,
+                    -0.00635,
+                    0.101131
+                  ]
+                },
+                {
+                  "referenceType": "VERTEX",
+                  "source_node_idx": 2,
+                  "profile_idx": 0,
+                  "loop_idx": 0,
+                  "curve_idx": 3,
+                  "end": "START",
+                  "capType": "SWEPT",
+                  "brep_edge_idx": 27,
+                  "brep_edge_centroid": [
+                    -0.01905,
+                    -0.00635,
+                    0.101131
+                  ]
+                }
+              ],
+              "parent_sketch_plane": {
+                "normal": [
+                  -1.0,
+                  0.0,
+                  0.0
+                ],
+                "origin": [
+                  -0.0508,
+                  0.0,
+                  0.0
+                ],
+                "x": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              "parent_op_type": "extrude",
+              "parent_op_params": {
+                "bodyType": "SOLID",
+                "operationType": "ADD",
+                "endBound": "BLIND",
+                "depthOne": 0.0,
+                "depthTwo": 0.0635
+              }
+            },
+            {
+              "name": "fillet_1_of_FaqEOQURdrrk1yV_1_0",
+              "feature_type": "fillet",
+              "params": {
+                "radius": 0.00127
+              },
+              "parent_idx": 2,
+              "inputs": [
+                2
+              ],
+              "input_labels": {},
+              "entities": [
+                {
+                  "referenceType": "EDGE",
+                  "source_node_idx": 2,
+                  "profile_idx": 0,
+                  "loop_idx": 0,
+                  "curve_idx": 1,
+                  "end": "EDGE",
+                  "capType": "END",
+                  "brep_edge_idx": 1,
+                  "brep_edge_centroid": [
+                    -0.0508,
+                    -0.0127,
+                    0.063031
+                  ]
+                },
+                {
+                  "referenceType": "VERTEX",
+                  "source_node_idx": 2,
+                  "profile_idx": 0,
+                  "loop_idx": 0,
+                  "curve_idx": 1,
+                  "end": "START",
+                  "capType": "SWEPT",
+                  "brep_edge_idx": 23,
+                  "brep_edge_centroid": [
+                    -0.024765,
+                    -0.01905,
+                    0.024931
+                  ]
+                },
+                {
+                  "referenceType": "EDGE",
+                  "source_node_idx": 2,
+                  "profile_idx": 0,
+                  "loop_idx": 0,
+                  "curve_idx": 1,
+                  "end": "EDGE",
+                  "capType": "START",
+                  "brep_edge_idx": 1,
+                  "brep_edge_centroid": [
+                    -0.0508,
+                    -0.0127,
+                    0.063031
+                  ]
+                }
+              ],
+              "parent_sketch_plane": {
+                "normal": [
+                  -1.0,
+                  0.0,
+                  0.0
+                ],
+                "origin": [
+                  -0.0508,
+                  0.0,
+                  0.0
+                ],
+                "x": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              "parent_op_type": "extrude",
+              "parent_op_params": {
+                "bodyType": "SOLID",
+                "operationType": "ADD",
+                "endBound": "BLIND",
+                "depthOne": 0.0,
+                "depthTwo": 0.0635
+              }
+            },
+            {
+              "name": "Extrude 5",
+              "feature_type": "extrude",
+              "params": {
+                "bodyType": "SOLID",
+                "operationType": "NEW",
+                "endBound": "BLIND",
+                "depthOne": 0.0381,
+                "depthTwo": 0.27135636
+              },
+              "parent_idx": 2,
+              "inputs": [
+                2
+              ],
+              "input_labels": {
+                "2": "geo"
+              },
+              "sketch_data": {
+                "plane": {
+                  "normal": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "origin": [
+                    0.0127,
+                    0.0,
+                    0.0
+                  ],
+                  "x": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ]
+                },
+                "profiles": {
+                  "0": {
+                    "loops": [
+                      {
+                        "loop_curves": [
+                          {
+                            "type": "Line2D",
+                            "start_point": [
+                              -0.01632606,
+                              0.041275
+                            ],
+                            "end_point": [
+                              0.01632606,
+                              0.041275
+                            ]
+                          },
+                          {
+                            "type": "Line2D",
+                            "start_point": [
+                              0.01632606,
+                              0.041275
+                            ],
+                            "end_point": [
+                              0.01905,
+                              0.02493134
+                            ]
+                          },
+                          {
+                            "type": "Line2D",
+                            "start_point": [
+                              0.01905,
+                              0.02493134
+                            ],
+                            "end_point": [
+                              -0.01905,
+                              0.02493134
+                            ]
+                          },
+                          {
+                            "type": "Line2D",
+                            "start_point": [
+                              -0.01905,
+                              0.02493134
+                            ],
+                            "end_point": [
+                              -0.01632606,
+                              0.041275
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "children": [
+                {
+                  "name": "fillet_0_of_F8wIbictdPXpkfW_1_0",
+                  "feature_type": "fillet",
+                  "params": {
+                    "radius": 0.00508
+                  },
+                  "parent_idx": 7,
+                  "inputs": [
+                    7
+                  ],
+                  "input_labels": {},
+                  "entities": [
+                    {
+                      "referenceType": "VERTEX",
+                      "source_node_idx": 7,
+                      "profile_idx": 0,
+                      "loop_idx": 0,
+                      "curve_idx": 3,
+                      "end": "END",
+                      "capType": "SWEPT",
+                      "brep_edge_idx": 4,
+                      "brep_edge_centroid": [
+                        -0.122978,
+                        -0.01905,
+                        0.024931
+                      ]
+                    },
+                    {
+                      "referenceType": "VERTEX",
+                      "source_node_idx": 7,
+                      "profile_idx": 0,
+                      "loop_idx": 0,
+                      "curve_idx": 1,
+                      "end": "START",
+                      "capType": "SWEPT",
+                      "brep_edge_idx": 6,
+                      "brep_edge_centroid": [
+                        -0.122978,
+                        0.016326,
+                        0.041275
+                      ]
+                    }
+                  ],
+                  "parent_sketch_plane": {
+                    "normal": [
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    "origin": [
+                      0.0127,
+                      0.0,
+                      0.0
+                    ],
+                    "x": [
+                      0.0,
+                      1.0,
+                      0.0
+                    ]
+                  },
+                  "parent_op_type": "extrude",
+                  "parent_op_params": {
+                    "bodyType": "SOLID",
+                    "operationType": "NEW",
+                    "endBound": "BLIND",
+                    "depthOne": 0.0381,
+                    "depthTwo": 0.27135636
+                  }
+                },
+                {
+                  "name": "fillet_1_of_F8wIbictdPXpkfW_1_0",
+                  "feature_type": "fillet",
+                  "params": {
+                    "radius": 0.00127
+                  },
+                  "parent_idx": 7,
+                  "inputs": [
+                    7
+                  ],
+                  "input_labels": {},
+                  "entities": [
+                    {
+                      "referenceType": "VERTEX",
+                      "source_node_idx": 7,
+                      "profile_idx": 0,
+                      "loop_idx": 0,
+                      "curve_idx": 3,
+                      "end": "START",
+                      "capType": "SWEPT",
+                      "brep_edge_idx": 4,
+                      "brep_edge_centroid": [
+                        -0.122978,
+                        -0.01905,
+                        0.024931
+                      ]
+                    },
+                    {
+                      "referenceType": "FACE",
+                      "source_node_idx": 7,
+                      "profile_idx": 0,
+                      "capType": "END",
+                      "brep_face_idx": 0
+                    }
+                  ],
+                  "parent_sketch_plane": {
+                    "normal": [
+                      1.0,
+                      0.0,
+                      0.0
+                    ],
+                    "origin": [
+                      0.0127,
+                      0.0,
+                      0.0
+                    ],
+                    "x": [
+                      0.0,
+                      1.0,
+                      0.0
+                    ]
+                  },
+                  "parent_op_type": "extrude",
+                  "parent_op_params": {
+                    "bodyType": "SOLID",
+                    "operationType": "NEW",
+                    "endBound": "BLIND",
+                    "depthOne": 0.0381,
+                    "depthTwo": 0.27135636
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extrude 3",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.04445,
+        "depthTwo": 0.0
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "origin": [
+            0.0,
+            0.0,
+            0.02286
+          ],
+          "x": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.04441397,
+                      -0.03242553
+                    ],
+                    "end_point": [
+                      0.04441397,
+                      0.03242553
+                    ],
+                    "midpoint": [
+                      0.04614364,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.04441397,
+                      0.03242553
+                    ],
+                    "end_point": [
+                      0.03178603,
+                      0.03242553
+                    ],
+                    "midpoint": [
+                      0.0381,
+                      0.0381
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03178603,
+                      0.03242553
+                    ],
+                    "end_point": [
+                      0.03178603,
+                      -0.03242553
+                    ],
+                    "midpoint": [
+                      0.03005636,
+                      0.0
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03178603,
+                      -0.03242553
+                    ],
+                    "end_point": [
+                      0.04441397,
+                      -0.03242553
+                    ],
+                    "midpoint": [
+                      0.0381,
+                      -0.0381
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Extrude 4",
+      "feature_type": "extrude",
+      "params": {
+        "bodyType": "SOLID",
+        "operationType": "REMOVE",
+        "endBound": "BLIND",
+        "depthOne": 0.0127,
+        "depthTwo": 0.0127
+      },
+      "parent_idx": -1,
+      "inputs": [],
+      "input_labels": {},
+      "sketch_data": {
+        "plane": {
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "origin": [
+            0.0381,
+            0.0,
+            0.0
+          ],
+          "x": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "profiles": {
+          "0": {
+            "loops": [
+              {
+                "loop_curves": [
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.03059677,
+                      0.06784193
+                    ],
+                    "end_point": [
+                      -0.03526524,
+                      0.07796329
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      -0.03526524,
+                      0.07796329
+                    ],
+                    "end_point": [
+                      0.03526524,
+                      0.07796329
+                    ]
+                  },
+                  {
+                    "type": "Line2D",
+                    "start_point": [
+                      0.03526524,
+                      0.07796329
+                    ],
+                    "end_point": [
+                      0.03059677,
+                      0.06784193
+                    ]
+                  },
+                  {
+                    "type": "Arc2D",
+                    "start_point": [
+                      0.03059677,
+                      0.06784193
+                    ],
+                    "end_point": [
+                      -0.03059677,
+                      0.06784193
+                    ],
+                    "midpoint": [
+                      0.0,
+                      0.04826
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "parent_sketch_plane": {
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.02286
+        ],
+        "x": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "parent_op_type": "extrude",
+      "parent_op_params": {
+        "bodyType": "SOLID",
+        "operationType": "NEW",
+        "endBound": "BLIND",
+        "depthOne": 0.04445,
+        "depthTwo": 0.0
+      }
+    }
+  ]
+}
