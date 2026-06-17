@@ -24,6 +24,7 @@ from OCC.Core.GProp     import GProp_GProps
 from OCC.Core.BRepGProp import brepgprop
 from OCC.Core.STEPControl import STEPControl_Writer, STEPControl_AsIs
 from OCC.Core.IFSelect   import IFSelect_RetDone
+from OCC.Core.Interface  import Interface_Static
 
 DROP_TYPES = {"fillet", "chamfer", "shell"}
 
@@ -50,6 +51,7 @@ def is_valid(shape):
 
 def export_step(shape, path):
     try:
+        Interface_Static.SetCVal("write.step.unit", "MM")
         w = STEPControl_Writer()
         w.Transfer(shape, STEPControl_AsIs)
         return w.Write(path) == IFSelect_RetDone
