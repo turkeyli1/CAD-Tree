@@ -145,10 +145,23 @@ def build_from_tree_json(
                 raw = None
 
             op_type = node.params.get("operationType", "NEW")
-            feat_info[fid] = op_type
+
+            # When a second (or later) body arrives with op_type=NEW, the default
+            # _boolean implementation packs it into a TopoDS_Compound.  Subsequent
+            # ADD/REMOVE on a Compound frequently fail BRepAlgoAPI validity checks,
+            # cascading into a broken reconstruction.  Instead, treat any non-first
+            # NEW as ADD (Fuse): bodies that touch/overlap get merged correctly;
+            # truly separate bodies get fused into one solid (geometry is wrong but
+            # at least the downstream booleans can proceed on a valid manifold).
+            effective_op = op_type
+            if op_type == "NEW" and current is not None:
+                effective_op = "ADD"
+                print(f"    [info] {node.name}: NEW promoted to ADD (multi-body workaround)")
+
+            feat_info[fid] = effective_op
 
             if raw is not None:
-                current = _boolean(current, raw, op_type)
+                current = _boolean(current, raw, effective_op)
 
         elif ft == "fillet" and current is not None:
             feat_info[fid] = "fillet"
