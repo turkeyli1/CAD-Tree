@@ -40,6 +40,8 @@ from OCC.Core.STEPControl import STEPControl_Writer, STEPControl_AsIs
 from OCC.Core.IFSelect  import IFSelect_RetDone
 from OCC.Core.Interface import Interface_Static
 from OCC.Core.TopoDS    import TopoDS_Shape
+from OCC.Core.gp        import gp_Trsf, gp_Pnt
+from OCC.Core.BRepBuilderAPI import BRepBuilderAPI_Transform
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -200,9 +202,11 @@ def export_step(shape: TopoDS_Shape, path: str) -> bool:
     if shape is None:
         return False
     try:
-        Interface_Static.SetCVal("write.step.unit", "MM")
+        trsf = gp_Trsf()
+        trsf.SetScale(gp_Pnt(0, 0, 0), 1000.0)
+        scaled = BRepBuilderAPI_Transform(shape, trsf, True).Shape()
         writer = STEPControl_Writer()
-        writer.Transfer(shape, STEPControl_AsIs)
+        writer.Transfer(scaled, STEPControl_AsIs)
         return writer.Write(path) == IFSelect_RetDone
     except Exception as exc:
         print(f"    [!] STEP export failed: {exc}")
